@@ -1,11 +1,11 @@
-FROM ubuntu:latest
+FROM ubuntu:focal
 
 LABEL "maintainer"="L3D <l3d@c3woc.de>"
-LABEL "repository"="https://github.com/roles-ansible/check-ansible-ubuntu-latest-action.git"
-LABEL "homepage"="https://github.com/roles-ansible/check-ansible-ubuntu-latest-action"
+LABEL "repository"="https://github.com/roles-ansible/check-ansible-ubuntu-focal-action.git"
+LABEL "homepage"="https://github.com/roles-ansible/check-ansible-ubuntu-focal-action"
 
-LABEL "com.github.actions.name"="check-ansible-ubuntu-latest"
-LABEL "com.github.actions.description"="Check ansible role or playbook with Ubuntu latest"
+LABEL "com.github.actions.name"="check-ansible-ubuntu-focal"
+LABEL "com.github.actions.description"="Check ansible role or playbook with Ubuntu focal"
 LABEL "com.github.actions.icon"="aperture"
 LABEL "com.github.actions.color"="green"
 
