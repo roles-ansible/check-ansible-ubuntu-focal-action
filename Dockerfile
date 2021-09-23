@@ -9,6 +9,8 @@ LABEL "com.github.actions.description"="Check ansible role or playbook with Ubun
 LABEL "com.github.actions.icon"="aperture"
 LABEL "com.github.actions.color"="green"
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update -y && apt-get install -y \
     software-properties-common \
     build-essential \
